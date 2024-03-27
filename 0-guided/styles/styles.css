@@ -13,4 +13,16 @@ html, body {
   justify-items: center;
 }
 
+.button {
+  width: 200px;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  color: rgb(85, 77, 77);
+}
+
 /*# sourceMappingURL=styles.css.map */
