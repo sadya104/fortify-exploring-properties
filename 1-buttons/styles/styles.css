@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 10px;
@@ -132,6 +133,11 @@ body {
   box-shadow: 5px 5px 0px 0px black;
 }
 
+.button_eight:hover {
+  background-color: black;
+  color: white;
+}
+
 .button_nine {
   margin: 20px;
   padding: 20px;
@@ -163,11 +169,14 @@ body {
   color: rgb(85, 0, 255);
   font-weight: bold;
   font-size: 14px;
+  --tw-translate-x: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .button_ten:hover {
   background-color: rgb(85, 0, 255);
   color: white;
+  content: "→";
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -130,6 +130,11 @@ background: linear-gradient(to right, #B95EE0 0%, #D878EF 50%, #E069CF 100%);
     box-shadow: 5px 5px 0px 0px black;
 }
     .button_eight:hover {
+       
+        background-color: black;
+        color: white; 
+       
+        
 
 
     }
@@ -162,8 +167,14 @@ background: linear-gradient(137deg, rgba(232,63,251,1) 0%, rgba(255,205,236,1) 0
     color:rgb(85, 0, 255);
     font-weight: bold;
     font-size: 14px;
-}
+    --tw-translate-x: -0.25rem;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+          rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+          scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      }
 .button_ten:hover {
-    background-color: rgb(85, 0, 255);
-    color: white;
+background-color:rgb(85, 0, 255) ;
+color: white;
+content: "→";
 }
+
